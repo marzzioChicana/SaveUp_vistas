@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <!-- android:icon="" ADD THIS-->
+        <item android:id="@+id/nav_item_homepage"
+            android:title="Página principal" />
+        <item android:id="@+id/nav_item_message"
+            android:title="Bandeja de entrada" />
+        <item android:id="@+id/nav_item_profile"
+            android:title="Perfil" />
+        <item android:id="@+id/nav_item_history"
+            android:title="Historial" />
+    </group>
+    <group>
+        <!-- android:icon="" ADD THIS-->
+        <item android:id="@+id/nav_item_log_out"
+            android:title="Cerrar sesión" />
+    </group>
+</menu>
